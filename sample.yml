@@ -1,10 +1,2 @@
-version: "3"
-services:
-    app:
-        image: ubuntu:20.04
-        working_dir: /work
-        tty: true
-        volumes:
-            - ./:/work
-        environment:
-            - HOME=/work
+output: sample.png
+threshold: 230
